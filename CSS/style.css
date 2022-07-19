@@ -26,6 +26,7 @@ main {
   background: #ffffff;
   border-radius: 5px;
   padding-top: 3px;
+  margin-top: 20px;
 }
 /* -----------
 top players
@@ -149,8 +150,7 @@ Start think responsive
 
 @media only screen and (max-width:576px){
   .container{
-    width: 90%;
-    margin: 0 auto;
+    width: 80%;
   }
   .players-list,.blogs,.courses{
     grid-template-columns: repeat(1,1fr);
