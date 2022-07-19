@@ -149,8 +149,8 @@ Start think responsive
 
 @media only screen and (max-width:576px){
   .container{
-    width: 100%;
-    padding: 0;
+    width: 90%;
+    margin: 0 auto;
   }
   .players-list,.blogs,.courses{
     grid-template-columns: repeat(1,1fr);
@@ -160,12 +160,8 @@ Start think responsive
   }
   .player,.blog{
     flex-direction: column;
-    justify-content: center;
     align-items: center;
   }
-  .blog{
-    flex-direction: column;
-  } 
   .courses{
     row-gap: 20px;
   }
