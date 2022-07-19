@@ -91,6 +91,10 @@ hr {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
+.course{
+  display: flex;
+  flex-direction: column;
+}
 .course img {
   width: 224px;
   height: 104px;
@@ -115,9 +119,11 @@ hr {
 }
 .fa-star.filled {
   color: #ffc014;
+  font-size: 11px;
 }
 .fa-star.empty {
   color: #aeaeae;
+  font-size: 11px;
 }
 .course-details .ratings {
   color: #a2a2a2;
@@ -137,3 +143,35 @@ hr {
   border-radius: 14.6913px;
   padding: 4px 6px;
 }
+
+/* -------------
+Start think responsive
+--------------------*/
+
+@media only screen and (max-width:576px){
+  .container{
+    width: 100%;
+  }
+  .players-list,.blogs,.courses{
+    grid-template-columns: repeat(1,1fr);
+  }
+  .top-players{
+    text-align: center;
+  }
+  .player{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .blog{
+    flex-direction: column;
+  } 
+  .courses{
+    row-gap: 20px;
+  }
+  .course{
+    justify-content: center;
+    align-items: center;
+  }
+
+}f
