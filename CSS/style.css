@@ -157,7 +157,6 @@ Start think responsive
   }
   .players-list,.blogs,.courses{
     grid-template-columns: repeat(1,1fr);
-    border: 2px solid red;
   }
   .top-players{
     text-align: center;
