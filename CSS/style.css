@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Mukta&family=Roboto:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+body {
+  background: #e5e5e5;
+}
+/* ----------main section---------- */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section-title {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  margin-bottom: 40px;
+  color: #562eff;
+  margin-top: 30px;
+}
+.container {
+  width: 870px;
+  padding: 33px 30px;
+  background: #ffffff;
+  border-radius: 5px;
+  padding-top: 3px;
+}
+/* -----------
+top players
+------------ */
+.top-players {
+  font-family: "Poppins", sans-serif;
+}
+.players-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 29px;
+  margin-bottom: 30px;
+}
+.player {
+  display: flex;
+  align-items: center;
+}
+.player img {
+  width: 56px;
+  height: 56px;
+}
+.player-name {
+  font-size: 18px;
+  margin-left: 16px;
+  color: #000;
+}
+hr {
+  border: 1px solid #d1d1d1;
+}
+/* ------top blogs css------------ */
+.blogs {
+  font-family: "Poppins", sans-serif;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-row-gap: 26px;
+}
+.blog {
+  display: flex;
+}
+.blog img {
+  width: 177px;
+  height: 117px;
+}
+.blog-details {
+  margin-left: 16px;
+}
+.blog-title {
+  font-size: 20px;
+  color: #000;
+  margin-bottom: 6px;
+  line-height: 34px;
+  margin-top: 0;
+}
+.blog-author {
+  color: #9f9f9f;
+  font-size: 16px;
+  margin-top: 0;
+}
+.blog-author a {
+  color: #562eff;
+  text-decoration: none;
+}
+
+/* Latest Courses Css */
+.courses {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.course img {
+  width: 224px;
+  height: 104px;
+}
+.course-info {
+  font-size: 20.0336px;
+  line-height: 23px;
+  color: #1e1e1e;
+  font-family: "Roboto", sans-serif;
+}
+.course-title {
+  margin-bottom: 7px;
+}
+.course-info span a {
+  text-decoration: none;
+  color: #ed6b4f;
+  font-size: 15px;
+}
+.course-details {
+  font-size: 15px;
+  margin-top: 20px;
+}
+.fa-star.filled {
+  color: #ffc014;
+}
+.fa-star.empty {
+  color: #aeaeae;
+}
+.course-details .ratings {
+  color: #a2a2a2;
+  margin-left: 11px;
+}
+.fa-clock{
+  border-radius: 14.6913px;
+  margin-right: 5px;
+  color: #ff4a60;
+}
+.course-duration {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  margin-left: 30.72px;
+  color: #ff4a60;
+  background: #ffe4e8;
+  border-radius: 14.6913px;
+  padding: 4px 6px;
+}
