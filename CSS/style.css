@@ -150,8 +150,8 @@ Start think responsive
 
 @media only screen and (max-width:576px){
   .container{
-    /* width: 80%; */
-    width: 100%;
+    width: 100vw;
+    /* width: 100%; */
   }
   .players-list,.blogs,.courses{
     grid-template-columns: repeat(1,1fr);
