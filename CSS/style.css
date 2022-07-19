@@ -2,6 +2,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 body {
+  margin: 0 auto;
+  padding: 0;
+  max-width: 1210px;
   background: #e5e5e5;
 }
 /* ----------main section---------- */
@@ -179,7 +182,7 @@ Start think responsive
 
 @media screen and (min-width:577px) and (max-width:992px) {
   .container{
-    width: 100%;
+    width: 90%;
   }
   .players-list,.blogs,.courses{
     grid-template-columns: repeat(2,1fr);
